@@ -18,6 +18,15 @@ This is a local-only application. It has no user authentication, and project
 files and generated videos are stored on this computer. Do not expose it to a
 public network.
 
+## GitHub Pages preview
+
+The GitHub Actions workflow builds and publishes the frontend to
+`https://minnminhaj30-cyber.github.io/shortconverter/` whenever changes are
+pushed to `main`. In the repository settings, set **Pages → Build and
+deployment → Source** to **GitHub Actions**. The Pages site hosts only the
+frontend; API requests and video-processing features require a separately
+deployed backend.
+
 ## Setup
 
 1. Install FFmpeg and verify that `ffmpeg -version` works in a new terminal.
