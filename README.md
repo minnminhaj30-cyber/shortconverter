@@ -20,12 +20,11 @@ public network.
 
 ## GitHub Pages preview
 
-The GitHub Actions workflow builds and publishes the frontend to
-`https://minnminhaj30-cyber.github.io/shortconverter/` whenever changes are
-pushed to `main`. In the repository settings, set **Pages → Build and
-deployment → Source** to **GitHub Actions**. The Pages site hosts only the
-frontend; API requests and video-processing features require a separately
-deployed backend.
+The GitHub Actions workflow builds the frontend and publishes it at the
+repository root for GitHub Pages whenever changes are pushed to `main`. The
+repository's Pages source should be set to **Deploy from a branch**, `main`,
+and `/(root)`. The Pages site hosts only the frontend; API requests and
+video-processing features require a separately deployed backend.
 
 ## Setup
 
